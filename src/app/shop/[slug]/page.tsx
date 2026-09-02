@@ -37,8 +37,24 @@ export default function ProductDetailPage({ params }: { params: { slug: string }
           </p>
           <h1 className="mt-2 text-2xl font-bold text-[#0a1a33] sm:text-3xl">{product.name}</h1>
           <p className="mt-4 text-sm text-slate-600">{product.description}</p>
+
+          {product.specs && product.specs.length > 0 && (
+            <ul className="mt-4 space-y-1.5">
+              {product.specs.map((s) => (
+                <li key={s} className="flex items-start gap-2 text-sm text-slate-700">
+                  <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-[#2f8fff]" />
+                  {s}
+                </li>
+              ))}
+            </ul>
+          )}
+
+          {product.addOn4G && (
+            <p className="mt-4 text-sm font-medium text-[#2f8fff]">{product.addOn4G}</p>
+          )}
+
           <p className="mt-6 text-2xl font-extrabold text-[#0a1a33]">
-            KES {product.price.toLocaleString()}
+            {product.priceOnRequest ? "Contact for Price" : `KES ${product.price.toLocaleString()}`}
           </p>
           <p className={`mt-1 text-sm font-medium ${product.available ? "text-emerald-600" : "text-red-500"}`}>
             {product.available ? "In stock" : "Out of stock"}
