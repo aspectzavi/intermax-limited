@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { products } from "@/data/products";
@@ -28,8 +29,14 @@ export default function ProductDetailPage({ params }: { params: { slug: string }
         ← Back to Shop
       </Link>
       <div className="mt-6 grid grid-cols-1 gap-10 md:grid-cols-2">
-        <div className="flex h-72 items-center justify-center rounded-2xl bg-slate-50 text-slate-300 md:h-96">
-          <span className="text-xs uppercase tracking-wide">{product.category}</span>
+        <div className="relative h-72 rounded-2xl bg-slate-50 md:h-96">
+          <Image
+            src={product.image}
+            alt={product.name}
+            fill
+            sizes="(max-width: 768px) 100vw, 50vw"
+            className="object-contain p-6"
+          />
         </div>
         <div>
           <p className="text-xs font-semibold uppercase tracking-widest text-[#2f8fff]">

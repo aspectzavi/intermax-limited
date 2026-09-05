@@ -59,9 +59,12 @@ export default function Navbar() {
         </div>
 
         <button
-          className="flex items-center justify-center rounded-md p-2 text-slate-200 md:hidden"
+          type="button"
+          className="relative z-50 flex items-center justify-center rounded-md p-2 text-slate-200 md:hidden"
           onClick={() => setOpen((v) => !v)}
           aria-label="Toggle menu"
+          aria-expanded={open}
+          aria-controls="mobile-navigation"
         >
           <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             {open ? (
@@ -74,7 +77,10 @@ export default function Navbar() {
       </nav>
 
       {open && (
-        <div className="border-t border-white/10 bg-[#0a1a33] px-4 pb-6 pt-2 md:hidden">
+        <div
+          id="mobile-navigation"
+          className="relative z-40 border-t border-white/10 bg-[#0a1a33] px-4 pb-6 pt-2 md:hidden"
+        >
           <div className="flex flex-col gap-3">
             {navLinks.map((link) => (
               <Link

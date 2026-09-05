@@ -29,7 +29,7 @@ export const products: Product[] = [
     category: "GPS & Tracking",
     price: 8500,
     available: true,
-    image: "/images/products/gps-tracker.svg",
+    image: "/images/products/compact-gps-vehicle-tracker.webp",
     description:
       "Entry-level GPS tracker for personal vehicles with real-time location and geofencing.",
   },
@@ -39,7 +39,7 @@ export const products: Product[] = [
     category: "GPS & Tracking",
     price: 12500,
     available: true,
-    image: "/images/products/gps-tracker-pro.svg",
+    image: "/images/products/fleet-gps-tracker-pro.webp",
     description:
       "Rugged tracker built for commercial vehicles and fleets, with driver behavior monitoring.",
   },
@@ -49,7 +49,7 @@ export const products: Product[] = [
     category: "GPS & Tracking",
     price: 6500,
     available: true,
-    image: "/images/products/gps-tracker-moto.svg",
+    image: "/images/products/motorbike-gps-tracker.webp",
     description: "Compact, weatherproof tracker designed for motorbikes and boda bodas.",
   },
   {
@@ -58,7 +58,7 @@ export const products: Product[] = [
     category: "Phones & Accessories",
     price: 18999,
     available: true,
-    image: "/images/products/phone.svg",
+    image: "/images/products/android-smartphone-mid-range.webp",
     description: "Reliable mid-range Android smartphone with dual SIM support.",
   },
   {
@@ -67,7 +67,7 @@ export const products: Product[] = [
     category: "Power & Charging",
     price: 1500,
     available: true,
-    image: "/images/products/charger.svg",
+    image: "/images/products/20w-fast-charger.webp",
     description: "USB-C fast charger compatible with most modern smartphones.",
   },
   {
@@ -76,7 +76,7 @@ export const products: Product[] = [
     category: "Computers & Laptops",
     price: 54999,
     available: true,
-    image: "/images/products/laptop.svg",
+    image: "/images/products/business-laptop-14inch.webp",
     description: "Lightweight laptop for everyday business and office use.",
   },
   {
@@ -85,7 +85,7 @@ export const products: Product[] = [
     category: "CCTV & Security",
     price: 32500,
     available: true,
-    image: "/images/products/cctv.svg",
+    image: "/images/products/wireless-cctv-camera-kit.webp",
     description: "4-camera wireless CCTV kit with mobile app viewing and night vision.",
   },
   {
@@ -94,7 +94,7 @@ export const products: Product[] = [
     category: "Networking Equipment",
     price: 6999,
     available: true,
-    image: "/images/products/router.svg",
+    image: "/images/products/dual-band-wi-fi-router.webp",
     description: "Dual-band router for reliable home and office Wi-Fi coverage.",
   },
   {
@@ -103,7 +103,7 @@ export const products: Product[] = [
     category: "Car Electronics",
     price: 5500,
     available: true,
-    image: "/images/products/dashcam.svg",
+    image: "/images/products/car-dash-camera.webp",
     description: "Full HD dash camera with loop recording and night vision.",
   },
   {
@@ -112,7 +112,7 @@ export const products: Product[] = [
     category: "Power & Charging",
     price: 3200,
     available: true,
-    image: "/images/products/powerbank.svg",
+    image: "/images/products/smart-power-bank-20000mah.webp",
     description: "High-capacity power bank with fast charging for phones and tablets.",
   },
   {
@@ -121,7 +121,7 @@ export const products: Product[] = [
     category: "Smart Devices",
     price: 2200,
     available: false,
-    image: "/images/products/smartplug.svg",
+    image: "/images/products/smart-wi-fi-plug.webp",
     description: "App-controlled smart plug for home automation. Currently out of stock.",
   },
   {
@@ -138,7 +138,7 @@ export const products: Product[] = [
       "Waterproof, 80×68×22mm",
     ],
     available: true,
-    image: "/images/products/st-905.svg",
+    image: "/images/products/st-905.jpg",
     description:
       "5000mAh long-battery magnetic GPS tracker, waterproof, easy to attach to any vehicle.",
   },
@@ -156,7 +156,7 @@ export const products: Product[] = [
       "Waterproof, 112×78×28mm",
     ],
     available: true,
-    image: "/images/products/st-915.svg",
+    image: "/images/products/st-915.webp",
     description:
       "10,000mAh long-battery magnetic GPS tracker, waterproof, for extended off-grid tracking.",
   },
@@ -174,7 +174,7 @@ export const products: Product[] = [
       "Waterproof, 112×78×48mm",
     ],
     available: true,
-    image: "/images/products/st-925.svg",
+    image: "/images/products/st-925.webp",
     description:
       "Super-battery magnetic GPS tracker with up to 180 days standby in sleep mode.",
   },
@@ -193,7 +193,7 @@ export const products: Product[] = [
       "98×52×15mm",
     ],
     available: true,
-    image: "/images/products/st-906.svg",
+    image: "/images/products/st-906.jpg",
     description:
       "Hardwired GPS/GSM tracker with SOS button, remote engine cut-off relay and voice monitoring.",
   },
@@ -212,7 +212,7 @@ export const products: Product[] = [
       "Can cut engine remotely",
     ],
     available: true,
-    image: "/images/products/st-907.svg",
+    image: "/images/products/st-907.webp",
     description:
       "Disguised as a vehicle relay for a discreet install, with remote engine cut-off.",
   },
@@ -231,7 +231,7 @@ export const products: Product[] = [
       "Doubles as a working car charger",
     ],
     available: true,
-    image: "/images/products/st-909.svg",
+    image: "/images/products/st-909.webp",
     description:
       "Discreet GPS tracker disguised as a USB car charger, functions as a real charger too.",
   },
@@ -250,7 +250,7 @@ export const products: Product[] = [
       "Can cut engine remotely",
     ],
     available: true,
-    image: "/images/products/st-901a.svg",
+    image: "/images/products/st-901a.webp",
     description:
       "Compact, affordable GPS tracker for all vehicles with remote engine cut-off.",
   },
@@ -269,7 +269,7 @@ export const products: Product[] = [
       "Waterproof",
     ],
     available: true,
-    image: "/images/products/st-901.svg",
+    image: "/images/products/st-901.webp",
     description: "Simple, waterproof GPS tracker built specifically for motorbikes.",
   },
   {
@@ -288,7 +288,7 @@ export const products: Product[] = [
       "Optional: connect external relay to control oil/circuit remotely",
     ],
     available: true,
-    image: "/images/products/st-901m.svg",
+    image: "/images/products/st-901m.webp",
     description:
       "Compact hardwired tracker with overspeed alarm and optional remote fuel/circuit cut-off.",
   },
@@ -305,7 +305,7 @@ export const products: Product[] = [
       "No installation or wiring harness — simply plugs into the OBD port",
     ],
     available: true,
-    image: "/images/products/st-902a.svg",
+    image: "/images/products/st-902a.webp",
     description: "Plug-and-play OBD tracker — no wiring, installs in seconds.",
   },
   {
@@ -322,7 +322,7 @@ export const products: Product[] = [
       "50×45×20mm",
     ],
     available: true,
-    image: "/images/products/st-902l.svg",
+    image: "/images/products/st-902l.webp",
     description: "4G/2G plug-and-play OBD II tracker with built-in battery backup.",
   },
   {
@@ -339,7 +339,7 @@ export const products: Product[] = [
       "48×25×18mm",
     ],
     available: true,
-    image: "/images/products/st-903.svg",
+    image: "/images/products/st-903.webp",
     description: "Compact waterproof tracker suited for personal safety or pet tracking.",
   },
   {
@@ -357,7 +357,11 @@ export const products: Product[] = [
       "With SOS button",
     ],
     available: true,
-    image: "/images/products/st-904.svg",
+    image: "/images/products/st-904.webp",
     description: "Personal safety tracker with SOS button and 2-way voice communication.",
   },
-];
+].sort((a, b) => {
+  const aIsStTracker = a.slug.startsWith("st-");
+  const bIsStTracker = b.slug.startsWith("st-");
+  return Number(bIsStTracker) - Number(aIsStTracker);
+});

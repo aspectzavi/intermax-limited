@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { Product } from "@/data/products";
 import { useCart } from "@/lib/CartContext";
 import { whatsappLink } from "@/data/config";
@@ -9,8 +10,14 @@ export default function ProductCard({ product }: { product: Product }) {
 
   return (
     <div className="group flex flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition hover:shadow-lg">
-      <div className="flex h-40 items-center justify-center bg-slate-50 text-slate-300">
-        <span className="text-xs uppercase tracking-wide">{product.category}</span>
+      <div className="relative h-40 bg-slate-50">
+        <Image
+          src={product.image}
+          alt={product.name}
+          fill
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+          className="object-contain p-4"
+        />
       </div>
       <div className="flex flex-1 flex-col gap-2 p-5">
         <h3 className="text-sm font-semibold text-[#0a1a33]">{product.name}</h3>
